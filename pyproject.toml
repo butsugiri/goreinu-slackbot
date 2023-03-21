@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "goreinu"
+version = "0.1.0"
+description = ""
+authors = ["Shun Kiyono <shunk52@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.2"
+python-dotenv = "^1.0.0"
+slack-bolt = "^1.16.4"
+flask = "^2.2.3"
+gunicorn = "^20.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
